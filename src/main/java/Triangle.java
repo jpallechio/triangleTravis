@@ -3,7 +3,7 @@ public class Triangle {
     private int a, b, c;
 
     //constructs a triangle based on parameters
-    public Triangle(int a, int b, int c){
+    public Triangle(int a, int b, int c) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -21,7 +21,7 @@ public class Triangle {
         return c;
     }
 
-    public boolean isValid(){
-        return a>0 && b>0 && c>0;
+    public boolean isValid() {
+        return a > 0 && b > 0 && c > 0;
     }
 }

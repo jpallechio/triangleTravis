@@ -3,7 +3,7 @@ import junit.framework.TestCase;
 import javax.swing.plaf.basic.BasicTreeUI;
 
 public class TriangleTest extends TestCase {
-    public void testConstructor(){
+    public void testConstructor() {
         Triangle triangle = new Triangle(3, 5, 7);
 
         assertTrue(triangle.getA() == 3);
@@ -11,7 +11,7 @@ public class TriangleTest extends TestCase {
         assertTrue(triangle.getC() == 7);
     }
 
-    public void testIsValid(){
+    public void testIsValid() {
         Triangle t = null;
 
         t = new Triangle(-5, 3, 7);
