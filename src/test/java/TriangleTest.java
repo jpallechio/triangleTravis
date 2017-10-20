@@ -1,7 +1,5 @@
 import junit.framework.TestCase;
 
-import javax.swing.plaf.basic.BasicTreeUI;
-
 public class TriangleTest extends TestCase {
     public void testConstructor() {
         Triangle triangle = new Triangle(3, 5, 7);
